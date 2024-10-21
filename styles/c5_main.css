@@ -8,23 +8,42 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
     margin-left: 10px;
+	width: 600px;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #931420;
+	background-color: white;
 }
 a:focus, a:hover {
 	font-style: italic;
 }
 /* the styles for the header */
+header {
+	border-bottom-style: solid;
+	border-bottom-width: 3px;
+	border-bottom-color: #931420;
+	padding-top: 1.5em;
+	padding-bottom: 2em;
+	background: linear-gradient(rgba(246, 187, 115, 0), rgba(246, 187, 115,30),
+	rgba(255, 255, 255, 50), rgba(246, 187, 115, 80), rgba(246, 187, 115, 100));
+}
+
 header h2 {
 	font-size: 175%;
 	color: var(--global-color-1);
-	text-indent: 30px;
 }
 header h3 {
 	font-size: 130%;
 	font-style: italic;
-	text-indent: 30px;
 }
 header img {
 	float: left;
+	padding-right: 30px;
+	padding-left: 30px;
 }
 .shadow {
 	text-shadow: 2px 2px 2px var(--global-color-1);
@@ -32,10 +51,18 @@ header img {
 /* the styles for the main content */
 main {
 	clear: left;
+	padding-left: 30px;
+	padding-right: 30px;
 }
 main h1 {
 	font-size: 150%;
 	padding: .3em 0;
+	border-top-style: solid;
+	border-top-width: 3px;
+	border-top-color: #931420;
+	border-bottom-style: solid;
+	border-bottom-width: 3px;
+	border-bottom-color: #931420;
 }
 main h2 {
 	color: var(--global-color-1);
@@ -58,13 +85,29 @@ main blockquote {
 }
 main ul {
 	padding: 0 0 .25em 1.25em;
+	padding-bottom: 20px;
 }
 main li {
 	padding-bottom: .35em;
 }
 
 /* the styles for the footer */
+footer {
+	background-color: #931420;
+}
+
 footer p {
 	text-align: center;
 	padding: 1em 0;
+	color: white;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#octoberSpeaker {
+	padding-top: 20px;
 }
