@@ -57,12 +57,12 @@ main {
 main h1 {
 	font-size: 150%;
 	padding: .3em 0;
-	border-top-style: solid;
-	border-top-width: 3px;
-	border-top-color: #931420;
-	border-bottom-style: solid;
-	border-bottom-width: 3px;
-	border-bottom-color: #931420;
+	border-style: double;
+	border-width: 3px;
+	border-color: #931420;
+	border-radius: 10px;
+	text-indent: 20px;
+	box-shadow: 5px 4px 4px black;
 }
 main h2 {
 	color: var(--global-color-1);
